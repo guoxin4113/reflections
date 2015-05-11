@@ -5,4 +5,19 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The staging area includes files you plan to commit while the working directory has all files in it. It gives a file a temparary storage place before being committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	git diff to make sure you add the file you want commit to the staging area; git diff --staged to check if it only involves one logic change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When you want to try out a different version.
+
+How do the diagrams help you visualize the branch structure?
+	It helps me to understand the reachability.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	When two commits are independent with each other, automatic merging is quicker than do it manually.
+
+				
 	
